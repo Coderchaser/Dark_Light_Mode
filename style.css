@@ -1,0 +1,43 @@
+body {
+    background-color: #fafafa;
+}
+
+.wrapper {
+    text-align: center;  
+}
+
+#btn {
+    height: 95px;
+    width: 160px;
+    padding: 0px;
+    line-height: 0px;
+    font-size: large;
+    font-weight: bold;
+    /* background-color: #302f2f; */
+    border-radius: 50px;
+    margin: 20px;
+    cursor: pointer;
+    position: "absolute";
+    top: "50%";
+    left: "50%";
+    transform: "translate(-50%, -50%);
+}
+
+img {
+    width: 65px;
+    height: 65px; 
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
